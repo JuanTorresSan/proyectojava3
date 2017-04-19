@@ -10,11 +10,11 @@ d3.json("https://data.ny.gov/resource/vz4f-yrf8.json",function(data) {
     $.get('https://data.ny.gov/resource/vz4f-yrf8.json', function(json){
       //  document.write(json.length);
         console.log(json.length);
-        $("#tamano").html("Numero de elementos: "+json.length);
-        var perro=[];
-        for(i=0 ;i<7;i++){
-            perro.push(i);
-        }
+        var algo=json.length;
+        console.log("aslajhslasjalsjalsjalsja");
+        $("#tamano").html("Numero de elementos:"+algo);
+       
+       
     });
 
 
@@ -34,3 +34,4 @@ d3.select("svg")
 .style("stroke-width", "1px")
 .attr("x", function(d,i) {return i * 18;})
 .attr("y", function(d) {return 200 - d;});
+

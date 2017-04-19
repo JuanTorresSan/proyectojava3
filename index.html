@@ -3,40 +3,49 @@
     <head>
         <title>Proyecto Elementos de Programacion Orientado a Objetos</title>
         <meta charset="UTF-8">
-
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="jquery.js"></script>
         <script src="d3.js"></script>
        
         <link rel="stylesheet" type="text/css" href="estilos.css">
 
-        <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     </head>
     
+       
+    <body>             
+       
+<div  class="container" id="malo">
     
- <body style="background-color:#000000;">
-</body>
-    
-    <body>
-               
-        
-<div class="container">
 
       <h1 class="text-center">   <p class="bg-info" id="titulo">Proyecto Elementos de Programacion Orientado a Objetos</p>   </h1>
  
       
       <h2 class="text-center, bg-danger "  >Este proyecto muestra infomacion de la NASA de las emiciones de CO2 en los distritos industriales de E.U </h2>
-
-        <div id="container" class="text-center">
+<div class="row">
+    
+    <div class="col-md-2"> 
+        <h2 class="text-right"> Cantidad de CO2 </h2>
+  </div>
+    
+  <div class="col-md-10">
+            <div id="container" class="text-center">
             <svg style="width:800px;height:250px;border:3px blue solid;" />
-        </div>
+            </div>
+  </div>
+</div>
+        
+      
+      <h2 id="y" class="text-center" > Tiempo(años)</h2>
+      
+      <h2 id="tamano"></h2>
+      
+     
+      
    <script src="script.js"></script>
  </div>
     </body>
